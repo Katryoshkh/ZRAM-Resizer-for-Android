@@ -1,0 +1,6 @@
+id=zram_4gb
+name=ZRAM 4GB
+version=1.0
+versionCode=1.0
+author=@Katryoshkh
+description=Resizing ZRAM to 4GB
