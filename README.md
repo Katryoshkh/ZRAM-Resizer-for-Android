@@ -29,9 +29,11 @@ Setelah reboot pertama, file konfigurasi akan dibuat secara otomatis pada:
 
 /data/adb/modules/ZRAM-Resizer-for-Android
 
-File ini dapat disunting untuk menentukan ukuran ZRAM secara manual (dalam satuan MB). Contoh:
+File ini dapat disunting untuk menentukan ukuran ZRAM secara manual (dalam satuan Byte). Contoh:
 
-```ZRAM_SIZE_BYTES=4294967296```
+   ```bash
+   ZRAM_SIZE_BYTES=4294967296
+   ```
 
 Perubahan konfigurasi akan diterapkan pada saat booting berikutnya.
 
