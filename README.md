@@ -12,7 +12,6 @@
 - Perangkat Android dengan Android 8.0 (Oreo) atau lebih tinggi
 - Akses root melalui Magisk atau KernelSU
 - Aplikasi Magisk atau KernelSU Manager
-- Terminal emulator (opsional, untuk konfigurasi manual)
 
 # Instalasi
 
