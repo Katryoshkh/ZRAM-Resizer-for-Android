@@ -1,0 +1,1 @@
+# ZRAM-Resizer-Android
