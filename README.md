@@ -4,7 +4,7 @@
 
 # Fitur
 
-- Penyesuaian ukuran ZRAM otomatis saat selesai boot
+- Penyesuaian ukuran ZRAM otomatis saat setelah selesai boot
 - Kompatibel dengan Magisk dan KernelSU
 - Konfigurasi fleksibel melalui file khusus di direktori `/data`
 
