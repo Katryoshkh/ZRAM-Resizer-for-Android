@@ -1,11 +1,10 @@
 # ZRAM-Resizer-for-Android (Magisk/KernelSU Module)
 
-**ZRAM Resizer** merupakan modul Magisk/KernelSU yang dirancang untuk mengatur ulang ukuran ZRAM secara otomatis saat proses booting berlangsung. Modul ini ditujukan bagi pengguna Android yang ingin menyesuaikan konfigurasi ZRAM guna meningkatkan efisiensi manajemen memori, khususnya pada perangkat dengan kapasitas RAM terbatas.
+**ZRAM Resizer** merupakan modul Magisk/KernelSU yang dirancang untuk mengatur ulang ukuran ZRAM secara otomatis saat setelah proses booting berlangsung. Modul ini ditujukan bagi pengguna Android yang ingin menyesuaikan konfigurasi ZRAM guna meningkatkan efisiensi manajemen memori, khususnya pada perangkat dengan kapasitas RAM terbatas.
 
 # Fitur
 
-- Penyesuaian ukuran ZRAM otomatis saat boot
-- Deteksi kapasitas RAM dan rekomendasi ukuran ZRAM
+- Penyesuaian ukuran ZRAM otomatis saat selesai boot
 - Kompatibel dengan Magisk dan KernelSU
 - Konfigurasi fleksibel melalui file khusus di direktori `/data`
 
@@ -27,7 +26,9 @@
 
 Setelah reboot pertama, file konfigurasi akan dibuat secara otomatis pada:
 
+```bash
 /data/adb/modules/ZRAM-Resizer-for-Android
+```
 
 File ini dapat disunting untuk menentukan ukuran ZRAM secara manual (dalam satuan Byte). Contoh:
 
@@ -61,9 +62,13 @@ Untuk menghapus modul:
 Jika Mengalami Bootloop, tidak dapat Booting, masuk Fastboot, atau masalah serupa:
 
 1. Masuke ke custom recovery
+   
 2. Pergi ke path /data/adb/modules
+   
 3. Cari folder ZRAM-Resizer
-4. Hapus folder tersebut 
+   
+4. Hapus folder tersebut
+   
 5. Kemudian booting perangkat
 
 # Kontribusi
