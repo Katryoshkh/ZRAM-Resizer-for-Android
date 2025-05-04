@@ -58,7 +58,7 @@ Untuk menghapus modul:
 
 Jika Mengalami Bootloop, tidak dapat Booting, masuk Fastboot, atau masalah serupa:
 
-1. Masuke ke custom recovery
+1. Masuk ke dalam custom recovery
    
 2. Pergi ke path /data/adb/modules
    
