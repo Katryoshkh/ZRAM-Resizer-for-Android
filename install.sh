@@ -7,7 +7,7 @@ LATESTARTSERVICE=true
 
 print_modname() {
   ui_print "                 "
-  ui_print " Module to resize ZRAM to 4 GB"
+  ui_print " Module to resize ZRAM for Android"
   ui_print " Created by Katryoshkh"
   ui_print "                 "
 }
