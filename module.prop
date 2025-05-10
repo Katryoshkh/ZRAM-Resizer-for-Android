@@ -1,6 +1,6 @@
-id=zram_4gb
-name=ZRAM 4GB
+id=ZRAM-Resizer-for-Android
+name=ZRAM-Resizer-for-Android
 version=1.0
 versionCode=1.0
 author=@Katryoshkh
-description=Resizing ZRAM to 4GB
+description=Resizing ZRAM
