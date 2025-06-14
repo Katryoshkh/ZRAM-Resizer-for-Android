@@ -10,7 +10,7 @@ ZRAM_ALGO="zstd"
 swapoff "$ZRAM_DEV" 2>/dev/null
 echo 1 > "$ZRAM_SYS/reset"
 echo "$ZRAM_ALGO" > "$ZRAM_SYS/comp_algorithm" 2>/dev/null
-echo 4 > "$ZRAM_SYS/max_comp_streams"
+echo 1 > "$ZRAM_SYS/max_comp_streams"
 echo 0 > "$ZRAM_SYS/disksize"
 chmod 644 "$ZRAM_SYS/disksize"
 echo "$ZRAM_SIZE_BYTES" > "$ZRAM_SYS/disksize"
