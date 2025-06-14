@@ -35,15 +35,6 @@ Module juga dapat disunting secara manual untuk menentukan ukuran ZRAM yang diin
    ```
 > Jika merasa kebingungan dengan konfigurasi dalam byte, bisa kunjungi tautan ini: [GiB size in Byte](https://pastebin.com/DeHH0BvP)
 
-# ✉️ Catatan Tambahan
-
-- Tidak disarankan untuk menggunakan modul ini bersamaan dengan module manajemen ZRAM lainnya.
-
-- Modul ini tidak mengubah kernel, hanya memodifikasi pengaturan ZRAM melalui systemless.
-
-- Pastikan untuk melakukan reboot setelah setiap perubahan konfigurasi.
-
-
 # 🗑️ Penghapusan
 
 Untuk menghapus modul:
@@ -128,6 +119,14 @@ Contoh output:
 ```bash
 /dev/block/zram0  partition  4194300  0  -2
 ```
+
+# ✉️ Catatan Tambahan
+
+- Tidak disarankan untuk menggunakan modul ini bersamaan dengan module manajemen ZRAM lainnya.
+
+- Modul ini tidak mengubah kernel, hanya memodifikasi pengaturan ZRAM melalui systemless.
+
+- Pastikan untuk melakukan reboot setelah setiap perubahan konfigurasi.
 
 # 🐞 Pelaporan Bug
 
